@@ -1,0 +1,19 @@
+database:
+    login: ENC[AES256_GCM,data:JgV3aA==,iv:nOjPG+Yx+LtiLQDYspHmwzTcE5TA5HTLNN+T0hSQEqo=,tag:VAlmYBcZ6HV9QibRLQGiig==,type:str]
+    password: ENC[AES256_GCM,data:QL3Q,iv:xmhUNAFcJZaSbQ7+09dpARCsb7ybhiWZyG4qestPFxY=,tag:4qWYYOGUtOieuwHn510qBw==,type:int]
+cache:
+    conn_str: ENC[AES256_GCM,data:LJqnUZZgMjuX3yFQOHlD8+sZX9V1GFtSRUQ=,iv:c/8XguaT1dTxOgw8RhWqX6MCJ+s1QgkjVX8Ys1MqfcI=,tag:zV9QK1EcCovbNbVNIL6ujw==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+        - resource_id: projects/boxwood-coil-418810/locations/global/keyRings/sops/cryptoKeys/sops-key
+          created_at: "2024-03-30T11:34:55Z"
+          enc: CiQAqi+BDpVnhWBGhWQpOooXiPzjNvK2jYMu1HLks8sCF4JYX44SSQDDrY65+gOUoAFPjJmpfSOtlNKxzAOQMHtwAs7Sfwvo6kUa/MdfIlWQ+HZGoB6n4Za01jTW3cycgVFsY9veyHMsaoMTtyUy0Bk=
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2024-03-30T11:39:19Z"
+    mac: ENC[AES256_GCM,data:vDZ+3T8Kg8DLc7yRaJ6QDhgrr7DPDpr7ADLebj7+nHk+hwUNyrFuxgTRopeElA8gv+MB08QFE5YuJbs4qAAwgFiwTi8wOkpWFe+cOF/QopsEp5+1aKuVR7MSDf+jBCqcmEvHZ8KdgJ1A39Fl1NXshVr1whbgunTsb2fOQRhuEEw=,iv:rRe+z/aCgGh+5Xgw2rNPDe5Ep7lxwEsaTXirpPGE08M=,tag:FPPKh/oXJfCFQWvH3fZuhg==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.8.1

@@ -1,0 +1,5 @@
+database:
+  login: test
+  password: 123
+cache:
+  conn_str: 123@example.com:123/qwerty
