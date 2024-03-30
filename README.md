@@ -25,6 +25,7 @@ If you have any questions, please let me know.
 - sops CLI, follow [installation instructions](https://github.com/getsops/sops/releases)
 - gcloud CLI, follow [installation instructions](https://cloud.google.com/sdk/docs/install)
 
+**Steps**
 1. Setup Google Cloud account:
     1. Go to https://cloud.google.com/?hl=en and click on Start Free button
     2. Fill out all the required forms
